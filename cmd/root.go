@@ -2,7 +2,10 @@
 // Copyright (c) 2023 0xSharma
 // Licensed under the MIT License (MIT).
 // See the LICENSE file in the project root for license information.
-package cmd
+package cmd // root.go
+
+// Package cmd implements the root command for the Compact-Chain CLI.
+// It provides commands to start the node, send transactions, and display the version.
 
 import (
 	"fmt"
