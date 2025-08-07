@@ -1,3 +1,4 @@
+// This file is part of Compact-Chain.
 package cmd
 
 import (
