@@ -25,7 +25,10 @@ import (
 )
 
 var (
-	version = "v1.1.0"
+	version = "v1.1.0" // Version of the Compact-Chain CLI
+	// rootCmd represents the base command when called without any subcommands.
+	// It is used to define the root command for the CLI application.
+	// It can be used to add global flags or configuration settings.
 	rootCmd = &cobra.Command{}
 
 	versionCmd = &cobra.Command{
