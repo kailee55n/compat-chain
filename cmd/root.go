@@ -1,5 +1,11 @@
 // This file is part of Compact-Chain.
-package cmd
+// Copyright (c) 2023 0xSharma
+// Licensed under the MIT License (MIT).
+// See the LICENSE file in the project root for license information.
+package cmd // root.go
+
+// Package cmd implements the root command for the Compact-Chain CLI.
+// It provides commands to start the node, send transactions, and display the version.
 
 import (
 	"fmt"
@@ -7,6 +13,8 @@ import (
 	"os"
 	"strconv"
 	"time"
+
+	//	"github.com/0xsharma/compact-chain/cmd/sendtx"
 
 	"github.com/0xsharma/compact-chain/config"
 	"github.com/0xsharma/compact-chain/core"
