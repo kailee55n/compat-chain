@@ -34,7 +34,9 @@ var (
 
 	versionCmd = &cobra.Command{ // versionCmd represents the command to print the version number of Compact-Chain.
 		// Use:   "version",` // Use is the command name used in the CLI to invoke this command.`
-		Use:   "version",
+		Use: "version", // Use is the command name used in the CLI to invoke this command.
+		// Short: "Print the version number of Compact-Chain", // Short is a brief description of the command.
+		// Run: func(cmd *cobra.Command, args []string) { // Run is the function that gets executed when this command is called.
 		Short: "Print the version number of Compact-Chain",
 		Run: func(cmd *cobra.Command, args []string) {
 			fmt.Println(version)
