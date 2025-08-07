@@ -1,4 +1,7 @@
 // This file is part of Compact-Chain.
+// Copyright (c) 2023 0xSharma
+// Licensed under the MIT License (MIT).
+// See the LICENSE file in the project root for license information.
 package cmd
 
 import (
@@ -7,6 +10,8 @@ import (
 	"os"
 	"strconv"
 	"time"
+
+	//	"github.com/0xsharma/compact-chain/cmd/sendtx"
 
 	"github.com/0xsharma/compact-chain/config"
 	"github.com/0xsharma/compact-chain/core"
