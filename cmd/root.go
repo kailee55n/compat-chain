@@ -29,9 +29,11 @@ var (
 	// rootCmd represents the base command when called without any subcommands.
 	// It is used to define the root command for the CLI application.
 	// It can be used to add global flags or configuration settings.
-	rootCmd = &cobra.Command{}
+	rootCmd = &cobra.Command{} // rootCmd represents the base command when called without any subcommands.
+	// versionCmd represents the command to print the version number of Compact-Chain.
 
-	versionCmd = &cobra.Command{
+	versionCmd = &cobra.Command{ // versionCmd represents the command to print the version number of Compact-Chain.
+		// Use:   "version",` // Use is the command name used in the CLI to invoke this command.`
 		Use:   "version",
 		Short: "Print the version number of Compact-Chain",
 		Run: func(cmd *cobra.Command, args []string) {
