@@ -39,7 +39,7 @@ var (
 		// Run: func(cmd *cobra.Command, args []string) { // Run is the function that gets executed when this command is called.
 		Short: "Print the version number of Compact-Chain", //	 Short is a brief description of the command.
 		Run: func(cmd *cobra.Command, args []string) { // Run is the function that gets executed when this command is called.
-			fmt.Println(version)
+			fmt.Println(version) // Print the version number of Compact-Chain
 		},
 	}
 
